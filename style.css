@@ -1,0 +1,215 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.ranju .nav ul a{
+   text-decoration: none;
+   font-size: 30px;
+   color: #000;
+}
+.ranju .nav ul li{
+   display: inline;
+   padding-right: 30px;
+}
+.ranju .nav ul a:hover{
+   background-color: rgba(165, 42, 42, 0.363);
+   border-radius: 10px;
+}
+ .content{
+    color: aliceblue;
+    position: absolute;
+    left: 60%;
+    font-size: large;
+    font-family: cursive;
+ }
+ .makeup{
+    background-color: rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    height: calc(100vh-13vh);
+    width: 100%;
+    margin: auto;
+ }
+ .img box img{
+    height: 10vh;
+ }
+ .container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg #230223,#0f2d1e,#000);
+ }
+ .container .nav{
+    display: flex;
+    height: 13vh;
+    width: 85;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+ }
+ /* .box1{ 
+    background-size: cover;
+    background-color: #000;
+    margin: auto;
+  } */
+ /* .box2{ 
+    background-size: cover;
+    background-color: #000;
+    margin: auto;
+  } */
+ .page{
+    color:aliceblue ;
+    position: absolute;
+    left: 60%;
+    font-size: large;
+    font-family: cursive;
+ }
+ .box3{
+    background-size: cover;
+    background-color: #000;
+    margin: auto;
+ }
+footer .containerboot{
+   background-color: rgb(3, 3, 49);
+   width: 220vh;
+
+}
+
+.row{
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 100px
+}
+.footer-col ul{
+   list-style: none;
+}
+
+.footer-col h4{
+   color: white;
+   margin-bottom: 25px;
+   font-size: 22px;
+   position: relative;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-col h4::before{
+   content: '';
+   width: 70px;
+   height: 2px;
+   position: absolute;
+   background-color: #e91e64;
+   bottom: -10px;
+}
+
+.footer-col ul li{
+   padding: 10px 0px;
+}
+.footer-col ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   opacity: 0.7;
+   transition: 0.5s;
+}
+.footer-col ul li a:hover{
+   opacity: 1;
+}
+.footer-col input{
+   border: none;
+   width: 250px;
+   height: 45px;
+   display: block;
+   padding-left: 20px;
+   margin: 14px 0;
+}
+
+.footer-col .inputSubmit{
+   padding: 0px 20px;
+   background-color: #e91e64;
+   border: none;
+   color: white;
+}
+.col p{
+   color: white;
+}
+
+
+@media (max-width: 600px){
+   footer .row{
+       flex-direction: column;
+       padding: 20px 30px;
+   }
+
+   footer .footer-col ul{
+       margin-left: 20px;
+       margin-bottom: 20px;
+
+   }
+
+   footer .footer-col ul{
+       margin-left: 20px;
+       margin-bottom: 20px;
+   }
+   .footer-col input{
+       width: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* @media all and(max-width:500px) {
+    logo
+    .container nav{
+        width: 40%;
+    }
+    .container nav{
+        font-size: medium;
+    }
+    .container nav img box{
+        margin-left: 60px;
+    }
+ }
+ Menu-bar
+ .container nav .sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgb(255, 255, 255,0.2);
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+    height: 35vh;
+    display: none;
+    right: 0;
+    left: 0;
+ }
+ .container nav ul .close{
+    display: 30px 0;;
+ }
+ .container nav ul li{
+    margin: 30px 0;
+
+ }
+ Burger
+ .burger{
+    display: block;
+    position: absolute;
+    left: 85%;
+    cursor: pointer;
+ }
+ search-bar
+ .container nav .search{
+    display: none;
+ }
+  */

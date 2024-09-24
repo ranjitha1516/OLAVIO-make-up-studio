@@ -1,0 +1,130 @@
+
+.hair {
+    border: 0px solid white;
+    height: 50vh;
+    width: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+
+}
+.hair .hair1:hover {
+    height: 300px;
+    border: 2px solid rgba(3, 3, 2, 0.863);
+    border-radius: 30px;
+}
+img{
+    width: 50vh;
+    height: 200px;
+    border-radius: 30px;
+    transition: 0.5s ease-in;   
+
+}
+.hair .hair1 img:hover{
+    border-radius: 400px;
+    transition: 0.5s ease-in;
+}
+.hair .hair img:hover{
+    box-shadow: 2px 2px 4px 4px black;
+    border-radius: 60%;
+}
+h2{
+    color:rgb(238, 235, 235);
+    left: 500%;
+}
+p{
+    color:rgb(253, 252, 252);
+    font-style: italic;
+}
+h1{
+    padding-left: 400px;
+    font-size: 50px;
+    display: grid;
+    color: brown;
+
+}
+footer .containerboot{
+    background-color: rgb(3, 3, 49);
+    width: 220vh;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px
+}
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #e91e64;
+    bottom: -10px;
+}
+
+.footer-col ul li{
+    padding: 10px 0;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+.footer-col input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+
+.footer-col .inputSubmit{
+    padding: 0px 20px;
+    background-color: #e91e64;
+    border: none;
+    color: white;
+}
+.col p{
+    color: white;
+}
+
+
+@media (max-width: 600px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    footer .footer-col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    footer .footer-col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-col input{
+        width: 100%;
+    }
+}
